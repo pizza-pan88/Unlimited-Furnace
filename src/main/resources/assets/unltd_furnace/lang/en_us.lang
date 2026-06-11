@@ -1,0 +1,10 @@
+itemGroup.furnaces=Furnaces
+
+tile.parallel_furnace.name=Parallel Furnace
+tile.flash_furnace.name=Flash Furnace
+tile.inexhaustible_furnace.name=Inexhaustible Furnace
+tile.unlimited_furnace.name=Unlimited Furnace
+
+tooltip.parallel_furnace.dscr=Smelt all ores at the same time.
+tooltip.flash_furnace.dscr=Smelts ore in the blink of an eye.
+tooltip.inexhaustible_furnace.dscr=Inexhaustible resources.

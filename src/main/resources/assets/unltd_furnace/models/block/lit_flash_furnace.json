@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "up": "unltd_furnace:blocks/flash_furnace_top",
+        "down": "unltd_furnace:blocks/flash_furnace_bottom",
+        "front": "unltd_furnace:blocks/flash_furnace_front_on",
+        "side": "unltd_furnace:blocks/flash_furnace_side"
+    }
+}

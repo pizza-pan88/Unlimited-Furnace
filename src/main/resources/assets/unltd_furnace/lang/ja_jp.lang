@@ -1,0 +1,10 @@
+itemGroup.furnaces=かまど
+
+tile.parallel_furnace.name=並列かまど
+tile.flash_furnace.name=フラッシュかまど
+tile.inexhaustible_furnace.name=無尽かまど
+tile.unlimited_furnace.name=無制限かまど
+
+tooltip.parallel_furnace.dscr=1度で終わらせる
+tooltip.flash_furnace.dscr=その速さ、閃光につき
+tooltip.inexhaustible_furnace.dscr=資源は尽きることの無く

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "unltd_furnace:unlimited_furnace"
+    ]
+  },
+  "criteria": {
+    "has_furnaces": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "unltd_furnace:parallel_furnace" },
+          { "item": "unltd_furnace:flash_furnace" },
+          { "item": "unltd_furnace:inexhaustible_furnace" }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "unltd_furnace:unlimited_furnace"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_furnaces"
+    ]
+  ]
+}
