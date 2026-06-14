@@ -1,0 +1,14 @@
+{
+  "itemGroup.furnaces": "かまど",
+
+  "block.unltd_furnace.parallel_furnace": "並列かまど",
+  "block.unltd_furnace.flash_furnace": "フラッシュかまど",
+  "block.unltd_furnace.inexhaustible_furnace": "無尽かまど",
+  "block.unltd_furnace.unlimited_furnace": "無制限かまど",
+
+  "tooltip.slot.definer": "ここに対応するアイテムを置くと、レシピの種類を変更できます",
+  "tooltip.slot.recipe_type": "レシピの種類: %s",
+  "tooltip.parallel_furnace.dscr": "1度で終わらせる",
+  "tooltip.flash_furnace.dscr": "その速さ、閃光につき",
+  "tooltip.inexhaustible_furnace.dscr": "資源は尽きることの無く"
+}

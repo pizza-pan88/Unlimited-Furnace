@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "E": {
+      "item": "minecraft:dragon_egg"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "R": {
+      "item": "minecraft:end_rod"
+    },
+    "b": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    "bEb",
+    "RFR",
+    "BBB"
+  ],
+  "result": {
+    "item": "unltd_furnace:inexhaustible_furnace"
+  },
+  "show_notification": true
+}

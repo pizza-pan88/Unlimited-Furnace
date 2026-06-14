@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "unltd_furnace:flash_furnace"
+    },
+    "I": {
+      "item": "unltd_furnace:inexhaustible_furnace"
+    },
+    "P": {
+      "item": "unltd_furnace:parallel_furnace"
+    },
+    "s": {
+      "tag": "forge:nether_stars"
+    }
+  },
+  "pattern": [
+    "sss",
+    "PFI",
+    "sss"
+  ],
+  "result": {
+    "item": "unltd_furnace:unlimited_furnace"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="unltd_furnace"
+version="1.0.0"
+displayName="Unlimited Furnace"
+updateJSONURL="https://raw.githubusercontent.com/pizza-pan88/Unlimited-Furnace/resource/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/unlimited-furnace"
+logoFile="logo.png"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.unltd_furnace]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.unltd_furnace]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

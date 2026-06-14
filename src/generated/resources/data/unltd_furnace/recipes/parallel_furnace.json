@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "O": {
+      "tag": "forge:obsidian"
+    }
+  },
+  "pattern": [
+    "OFO",
+    "F F",
+    "OFO"
+  ],
+  "result": {
+    "item": "unltd_furnace:parallel_furnace"
+  },
+  "show_notification": true
+}

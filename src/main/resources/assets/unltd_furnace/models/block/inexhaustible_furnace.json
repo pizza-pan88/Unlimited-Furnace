@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "up": "unltd_furnace:block/inexhaustible_furnace_top",
+        "down": "unltd_furnace:block/inexhaustible_furnace_bottom",
+        "front": "unltd_furnace:block/inexhaustible_furnace_front",
+        "side": "unltd_furnace:block/inexhaustible_furnace_side"
+    }
+}

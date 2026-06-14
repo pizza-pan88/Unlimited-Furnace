@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "facing=north,lit=false": { "model": "unltd_furnace:block/parallel_furnace" },
+        "facing=south,lit=false": { "model": "unltd_furnace:block/parallel_furnace", "y": 180 },
+        "facing=west,lit=false":  { "model": "unltd_furnace:block/parallel_furnace", "y": 270 },
+        "facing=east,lit=false":  { "model": "unltd_furnace:block/parallel_furnace", "y": 90 },
+        
+        "facing=north,lit=true": { "model": "unltd_furnace:block/lit_parallel_furnace" },
+        "facing=south,lit=true": { "model": "unltd_furnace:block/lit_parallel_furnace", "y": 180 },
+        "facing=west,lit=true":  { "model": "unltd_furnace:block/lit_parallel_furnace", "y": 270 },
+        "facing=east,lit=true":  { "model": "unltd_furnace:block/lit_parallel_furnace", "y": 90 }
+    }
+}

@@ -1,0 +1,5 @@
+// 1.20.1	2026-06-14T23:34:25.6801155	Loot Tables
+43413a5427cdf8e8e6355782d4f087ce15b8727e data/unltd_furnace/loot_tables/blocks/flash_furnace.json
+73210e229a61c7d6d4599b46f1e6e47be101e6e1 data/unltd_furnace/loot_tables/blocks/inexhaustible_furnace.json
+9d393dccaa97b5c274cc5df58c1b36295a852bbc data/unltd_furnace/loot_tables/blocks/parallel_furnace.json
+55abdb394f673ceafed46f072a2c7c3eb6b31257 data/unltd_furnace/loot_tables/blocks/unlimited_furnace.json

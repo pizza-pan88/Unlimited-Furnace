@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "q": {
+      "tag": "forge:gems/quartz"
+    },
+    "r": {
+      "tag": "forge:rods/blaze"
+    },
+    "s": {
+      "tag": "forge:nether_stars"
+    }
+  },
+  "pattern": [
+    "qsq",
+    "rFr",
+    "BBB"
+  ],
+  "result": {
+    "item": "unltd_furnace:flash_furnace"
+  },
+  "show_notification": true
+}
