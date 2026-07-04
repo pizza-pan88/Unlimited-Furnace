@@ -1,6 +1,7 @@
 package pipi.mod.unltd_furnace.block;
 
 import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
 
 import javax.annotation.Nullable;
 
@@ -51,18 +52,26 @@ public class BlockUnltdFurnace<T extends TileEntityUnltdFurnaceBase> extends Bas
 	public static final BooleanProperty LIT = BlockStateProperties.LIT;
 	
 	private final Supplier<BlockEntityType<T>> supplier;
-	public BlockUnltdFurnace(Properties properties, Supplier<BlockEntityType<T>> supplier) {
-		super(properties
+	public BlockUnltdFurnace(UnaryOperator<Properties> operator, Supplier<BlockEntityType<T>> supplier) {
+		super(operator.apply(Properties.of()
 				.strength(2.5f)
 				.sound(SoundType.METAL)
 				.mapColor(MapColor.METAL)
 				.requiresCorrectToolForDrops()
-		);
+		));
 		this.registerDefaultState(this.stateDefinition.any()
 				.setValue(FACING, Direction.NORTH)
 				.setValue(LIT, Boolean.valueOf(false))
 		);
 		this.supplier = supplier;
+	}
+	/** Use an {@link UnaryOperator} instead of the {@link Properties}. */
+	@Deprecated
+	public BlockUnltdFurnace(Properties properties, Supplier<BlockEntityType<T>> supplier) {
+		this(
+				t -> properties.strength(2.5f).sound(SoundType.METAL).mapColor(MapColor.METAL).requiresCorrectToolForDrops(),
+				supplier
+		);
 	}
 
 	

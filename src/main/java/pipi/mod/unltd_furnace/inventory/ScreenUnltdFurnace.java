@@ -36,8 +36,9 @@ public class ScreenUnltdFurnace extends AbstractContainerScreen<MenuUnltdFurnace
 	protected void gatherDefinerTips(List<FormattedCharSequence> tips) {
 		if(this.hoveredSlot.hasItem()) {
 			tips.add(this.hoveredSlot.getItem().getHoverName().getVisualOrderText());
+		} else {
+			tips.add(TIP_DEFINER.getVisualOrderText());
 		}
-		tips.add(TIP_DEFINER.getVisualOrderText());
 		tips.add(TIP_RECIPE_TYPE.apply(this.menu.getRecipeType()).getVisualOrderText());
 	}
 

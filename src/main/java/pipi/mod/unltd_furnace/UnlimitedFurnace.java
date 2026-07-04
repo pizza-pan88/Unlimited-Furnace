@@ -59,8 +59,10 @@ public class UnlimitedFurnace {
 		UnltdFurnaceEventHandler.register(modEventBus);
 	}
 	
+	@SuppressWarnings("removal")
 	public static ResourceLocation locate(String path) {
-		return ResourceLocation.fromNamespaceAndPath(MODID, path);
+		// return ResourceLocation.fromNamespaceAndPath(MODID, path);
+		return new ResourceLocation(MODID, path); 
 	}
 	
 	public static String locateStr(String path) {

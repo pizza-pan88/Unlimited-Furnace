@@ -14,12 +14,12 @@ public class UnltdFurnacePacketHandler {
 					PROTOCOL_VERSION.toString()::equals
 	);
 
-
+	private static int id = 0;
 	public static void register() {
-		INSTANCE.messageBuilder(PacketCookingRecipeDefiner.class, 0)
-		.encoder(PacketCookingRecipeDefiner::encode)
-		.decoder(PacketCookingRecipeDefiner::decode)
-		.consumerMainThread(PacketCookingRecipeDefiner::handle)
-		.add();
+		add(new PacketCookingRecipeDefiner.Handler());
+	}
+	
+	private static <T> void add(PacketHandler<T> packet) {
+		packet.addToChannel(INSTANCE, id++);
 	}
 }

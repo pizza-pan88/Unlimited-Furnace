@@ -15,8 +15,10 @@ public class UnltdFurnaceInfo {
 	public static final UnltdFurnaceInfo UNLIMITED = new UnltdFurnaceInfo(true, true, true, true, true);
 
 	public final boolean saveInput, saveFuel, unltdStack, smeltingAll, instantSmelting;
-	public UnltdFurnaceInfo(boolean saveInput, boolean saveFuel, boolean unltdStack,
-			boolean smeltingAll, boolean instantSmelting) {
+	public UnltdFurnaceInfo(
+			boolean saveInput, boolean saveFuel, boolean unltdStack,
+			boolean smeltingAll, boolean instantSmelting
+		) {
 		this.saveInput = saveInput;
 		this.saveFuel = saveFuel;
 		this.unltdStack = unltdStack;
